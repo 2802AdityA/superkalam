@@ -20,21 +20,6 @@ export const Left = () => {
                 {leftPanel.map((column) => {
                     return <PanelColumn key={column.title} title={column.title} content={column.content} />
                 })}
-
-                {/* <div>
-                    Library
-                </div>
-                <div>
-                    <div>
-                        Download
-                    </div>
-                    <div>
-                        Favourites
-                    </div>
-                    <div>
-                        Local Files
-                    </div>
-                </div> */}
             </div>
         </div>
         <div className="relative bottom-0">
