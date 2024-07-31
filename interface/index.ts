@@ -1,6 +1,6 @@
 import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 
-export interface Content {
+export interface LeftContent {
 	title: string;
 	icon: IconDefinition;
 	selected?: boolean;
@@ -8,5 +8,5 @@ export interface Content {
 
 export interface LeftPanelInterface {
 	title: string;
-	content: Content[];
+	content: LeftContent[];
 }
