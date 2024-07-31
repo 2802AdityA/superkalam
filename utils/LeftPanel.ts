@@ -14,6 +14,7 @@ const leftPanel: LeftPanelInterface[] = [
 			{
 				title: "Home",
 				icon: faHouse,
+				selected: true,
 			},
 			{
 				title: "Discover",
