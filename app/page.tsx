@@ -1,7 +1,7 @@
 import { Center } from "@/components/Center";
 import { Left } from "@/components/Left/Left";
 import { Player } from "@/components/Player";
-import { Right } from "@/components/Right";
+import { Right } from "@/components/Right/Right";
 
 export default function Home() {
 
@@ -15,7 +15,7 @@ export default function Home() {
                 <div className="flex-1 bg-centerC overflow-y-auto">
                     <Center />
                 </div>
-                <div className="w-1/5 bg-rightC overflow-y-auto">
+                <div className="w-1/5 min-w-[400px] bg-rightC overflow-y-auto">
                     <Right />
                 </div>
             </div>
