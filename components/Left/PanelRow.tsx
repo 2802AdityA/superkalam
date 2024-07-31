@@ -1,3 +1,5 @@
+"use client"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const PanelRow = ({ content }: { content: any }) => {

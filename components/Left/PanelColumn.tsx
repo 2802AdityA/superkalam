@@ -1,3 +1,5 @@
+"use client"
+
 import { PanelRow } from "./PanelRow"
 
 export const PanelColumn = ({ title, content }: { title: string, content: any }) => {
