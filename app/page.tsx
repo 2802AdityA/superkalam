@@ -5,6 +5,7 @@ import { Right } from "@/components/Right";
 
 export default function Home() {
 
+
     return (
         <div className="flex-col h-full">
             <div className="flex flex-grow overflow-hidden">
