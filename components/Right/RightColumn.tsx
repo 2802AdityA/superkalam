@@ -1,6 +1,7 @@
+import { RightContent } from "@/interface";
 import { RightRow } from "./RightRow";
 
-export const RightColumn = ({ title, content }: { title: string, content: any }) => {
+export const RightColumn = ({ title, content }: { title: string, content: RightContent[] }) => {
     return (
         <div className="flex-col mt-8">
             <div className="flex justify-between items-center">
@@ -14,7 +15,7 @@ export const RightColumn = ({ title, content }: { title: string, content: any })
                 </div>
             </div>
             {
-                content.map((con: any) => {
+                content.map((con: RightContent) => {
                     return <RightRow key={con.name} content={con} />
                 })
             }

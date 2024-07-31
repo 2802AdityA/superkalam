@@ -1,6 +1,7 @@
+import { RightContent } from "@/interface"
 import Image from "next/image"
 
-export const RightRow = ({ content }: { content: any }) => {
+export const RightRow = ({ content }: { content: RightContent }) => {
     return <div className="flex justify-between items-center mt-4">
         <div className="flex justify-start items-center gap-4">
             <div className="h-12 w-12">

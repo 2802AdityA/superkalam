@@ -1,6 +1,7 @@
+import { RightPanelInterface } from "@/interface";
 import cat from "../public/cat.png";
 
-const rightPanel = [
+const rightPanel: RightPanelInterface[] = [
 	{
 		title: "Recently Played",
 		content: [
