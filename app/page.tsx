@@ -19,7 +19,7 @@ export default function Home() {
                     <Right />
                 </div>
             </div>
-            <div className="bg-rightC p-4 border-0 border-t-2 border-white fixed bottom-0 w-full">
+            <div className="bg-rightC p-4 border-0 border-t-2 border-[#1A1B1C] fixed bottom-0 w-full">
                 <Player />
             </div>
         </div>
