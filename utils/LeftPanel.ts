@@ -1,14 +1,13 @@
-// import { faCompass } from "@fortawesome/free-regular-svg-icons/faCompass";
+import { LeftPanelInterface } from "@/interface";
 import {
 	faCompass,
-	faDownload,
-	faFolder,
+	faCircleDown,
 	faHeart,
-	faHouse,
-	faMusic,
-} from "@fortawesome/free-solid-svg-icons";
+	faFolderClosed,
+} from "@fortawesome/free-regular-svg-icons";
+import { faHouse, faMusic } from "@fortawesome/free-solid-svg-icons";
 
-const leftPanel = [
+const leftPanel: LeftPanelInterface[] = [
 	{
 		title: "FEATURES",
 		content: [
@@ -31,7 +30,7 @@ const leftPanel = [
 		content: [
 			{
 				title: "Download",
-				icon: faDownload,
+				icon: faCircleDown,
 			},
 			{
 				title: "Favourites",
@@ -39,7 +38,7 @@ const leftPanel = [
 			},
 			{
 				title: "Local Files",
-				icon: faFolder,
+				icon: faFolderClosed,
 			},
 		],
 	},
