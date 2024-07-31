@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className="flex-col h-full">
             <div className="flex flex-grow overflow-hidden">
-                <div className="w-1/5 bg-leftC overflow-y-auto">
+                <div className="w-1/6 min-w-1/6 bg-leftC overflow-y-auto">
                     <Left />
                 </div>
                 <div className="flex-1 bg-centerC overflow-y-auto">
