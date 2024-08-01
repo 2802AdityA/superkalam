@@ -1,4 +1,4 @@
-import { Center } from "@/components/Center";
+import { Center } from "@/components/Center/Center";
 import { Left } from "@/components/Left/Left";
 import { Player } from "@/components/Player";
 import { Right } from "@/components/Right/Right";
@@ -7,15 +7,15 @@ export default function Home() {
 
 
     return (
-        <div className="flex-col h-full">
-            <div className="flex flex-grow overflow-hidden">
-                <div className="w-1/6 min-w-1/6 bg-leftC overflow-y-auto">
+        <div className="flex-col h-screen overflow-hidden">
+            <div className="flex flex-grow ">
+                <div className="w-1/6 min-w-1/6 bg-leftC overflow-y-auto h-full min-h-screen">
                     <Left />
                 </div>
-                <div className="flex-1 bg-centerC overflow-y-auto">
+                <div className="flex-1 bg-centerC overflow-y-auto h-full min-h-screen ">
                     <Center />
                 </div>
-                <div className="w-1/5 min-w-[400px] bg-rightC overflow-y-auto">
+                <div className="w-1/5 min-w-[400px] bg-rightC overflow-y-auto h-full min-h-screen ">
                     <Right />
                 </div>
             </div>
