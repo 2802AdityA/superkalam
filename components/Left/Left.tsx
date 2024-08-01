@@ -7,7 +7,7 @@ import runaway from "../../public/runaway.jpeg"
 
 
 export const Left = () => {
-    return <div className="flex flex-col pb-24 justify-between w-0 lg:w-1/6 lg:min-w-1/6 bg-leftC overflow-y-hidden min-h-screen text-white ">
+    return <div className="flex flex-col text-white justify-between w-full ">
         <div className="flex-grow m-8">
             <div className="flex justify-between items-center mb-6">
                 <div className="font-black text-3xl text-blue-600">

@@ -8,7 +8,7 @@ import { Bell, ChevronDown } from 'lucide-react'
 
 export const Right = () => {
     return (
-        <div className="flex-col w-0 lg:w-1/5 lg:min-w-[400px] bg-rightC overflow-y-auto h-full min-h-screen text-white p-8">
+        <div className="text-white  flex-col m-8">
             <div className="flex justify-between items-center ">
                 <div className="flex items-center">
                     <div className='h-12 w-12 mr-4'><Image src={cat} alt="avatar" className='rounded-full' /></div>
