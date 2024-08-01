@@ -1,7 +1,5 @@
 "use client"
 
-import Image from "next/image"
-import cat from "../../public/cat.png";
 import { Playlist } from "./Playlist";
 import { CenterContent, CenterPanelInterface } from "@/interface";
 
@@ -12,7 +10,7 @@ export const CenterRow = ({ row }: { row: CenterPanelInterface }) => {
                 {row.title}
             </div>
             <div>
-                <button className="text-gray-400 font-semibold">See all</button>
+                <button className="text-gray-400 hover:text-white transition duration-500 font-semibold">See all</button>
             </div>
         </div>
         <div className="grid grid-cols-4 gap-8">
