@@ -18,7 +18,7 @@ export default function Home() {
                     <Right />
                 </div>
             </div>
-            <div className="bg-rightC px-8 py-4 border-0 border-t-2 h-30 border-[#1A1B1C] fixed bottom-0 w-full">
+            <div className="bg-rightC px-8 py-4 border-0 border-t-2 h-24 border-[#1A1B1C] fixed bottom-0 w-full">
                 <Player />
             </div>
         </div>
