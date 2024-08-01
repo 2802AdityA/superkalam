@@ -7,7 +7,7 @@ import centerPanel from "@/utils/CenterPanel";
 import { CenterRow } from "./CenterRow";
 
 export const Center = () => {
-    return <div className="text-white flex-col mt-8 mx-16">
+    return <div className="flex-1 pb-16 bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent text-white flex-col pt-8 px-16">
         <TopBar />
 
         <Image className="rounded-2xl" src={mainCover} alt="main cover" />
