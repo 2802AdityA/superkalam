@@ -8,8 +8,8 @@ export const RightColumn = ({ title, content }: { title: string, content: RightC
                 <div className="text-gray-300 text-lg font-extrabold">
                     {title}
                 </div>
-                <div>
-                    <button className="text-gray-400 font-semibold ">
+                <div className="">
+                    <button className="transition duration-500 hover:text-white text-gray-400 font-semibold ">
                         See all
                     </button>
                 </div>
