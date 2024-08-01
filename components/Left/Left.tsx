@@ -1,8 +1,7 @@
 "use client"
-import { faBars, faHouse } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { PanelColumn } from "./PanelColumn"
 import leftPanel from '../../utils/LeftPanel';
+import { Menu } from "lucide-react";
 
 
 export const Left = () => {
@@ -13,7 +12,7 @@ export const Left = () => {
                     W
                 </div>
                 <div className="">
-                    <FontAwesomeIcon className="h-5" icon={faBars} />
+                    <Menu />
                 </div>
             </div>
             <div>

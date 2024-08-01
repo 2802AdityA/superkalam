@@ -2,11 +2,9 @@
 import Image from 'next/image'
 
 import cat from "../../public/cat.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell } from '@fortawesome/free-regular-svg-icons'
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { RightColumn } from './RightColumn'
 import rightPanel from '@/utils/RightPanel'
+import { Bell, ChevronDown } from 'lucide-react'
 
 export const Right = () => {
     return (
@@ -18,10 +16,10 @@ export const Right = () => {
                 </div>
                 <div className="flex gap-4">
                     <div>
-                        <FontAwesomeIcon className='text-gray-300 h-5' icon={faBell} />
+                        <Bell className='text-gray-300 ' />
                     </div>
                     <div>
-                        <FontAwesomeIcon className='text-gray-300 h-5' icon={faAngleDown} />
+                        <ChevronDown className='text-gray-300' />
                     </div>
                 </div>
             </div>
