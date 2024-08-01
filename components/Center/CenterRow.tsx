@@ -6,7 +6,7 @@ import { CenterContent, CenterPanelInterface } from "@/interface";
 export const CenterRow = ({ row }: { row: CenterPanelInterface }) => {
     return (<div className="mt-8 flex-col ">
         <div className="flex justify-between items-center mb-8">
-            <div className="font-extrabold text-3xl">
+            <div className="font-extrabold text-3xl hover:underline">
                 {row.title}
             </div>
             <div>

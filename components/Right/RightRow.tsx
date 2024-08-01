@@ -9,7 +9,7 @@ export const RightRow = ({ content }: { content: RightContent }) => {
             </div>
             <div className="flex-col">
                 <div className="text-lg text-gray-300">{content.name}</div>
-                <div className="text-sm text-gray-500">{content.artist}</div>
+                <div className="text-sm text-gray-500 hover:underline hover:text-gray-300">{content.artist}</div>
             </div>
         </div>
         <div className="text-xs font-bold text-gray-500">

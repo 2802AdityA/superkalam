@@ -15,7 +15,7 @@ export const Playlist = ({ playlist }: { playlist: CenterContent }) => {
                     <div className="font-bold text-gray-300 text-lg">
                         {playlist.title}
                     </div>
-                    <div className="text-gray-400 font-medium">
+                    <div className="text-gray-400 font-medium hover:underline hover:text-gray-200">
                         {playlist.sub}
                     </div>
                 </div>
