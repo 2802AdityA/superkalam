@@ -18,10 +18,10 @@ export const Right = () => {
                 </div>
                 <div className="flex gap-4">
                     <div>
-                        <FontAwesomeIcon className='text-gray-300' size='lg' icon={faBell} />
+                        <FontAwesomeIcon className='text-gray-300 h-5' icon={faBell} />
                     </div>
                     <div>
-                        <FontAwesomeIcon className='text-gray-300' size='lg' icon={faAngleDown} />
+                        <FontAwesomeIcon className='text-gray-300 h-5' icon={faAngleDown} />
                     </div>
                 </div>
             </div>

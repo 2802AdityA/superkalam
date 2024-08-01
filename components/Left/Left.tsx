@@ -7,7 +7,7 @@ import leftPanel from '../../utils/LeftPanel';
 
 export const Left = () => {
     return <div className="text-white flex-col">
-        <div className="flex-grow m-6">
+        <div className="flex-grow m-8">
             <div className="flex justify-between items-center mb-6">
                 <div className="font-black text-3xl text-blue-600">
                     W
