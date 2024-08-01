@@ -12,6 +12,17 @@ export interface LeftPanelInterface {
 	content: LeftContent[];
 }
 
+export interface CenterContent {
+	title: string;
+	cover: StaticImageData;
+	sub: string;
+}
+
+export interface CenterPanelInterface {
+	title: string;
+	content: CenterContent[];
+}
+
 export interface RightContent {
 	cover: StaticImageData;
 	name: string;

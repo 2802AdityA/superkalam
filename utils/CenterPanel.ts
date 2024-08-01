@@ -2,7 +2,6 @@ import krsna from "../public/TimeWillTell.jpeg";
 import sm from "../public/Nayaab.jpeg";
 import anjum from "../public/OpenLetter.jpeg";
 import astro from "../public/ASTROWORLD.jpeg";
-import cat from "../public/cat.png";
 import off from "../public/TheOffSeason.jpeg";
 import kanye from "../public/Graduation.jpeg";
 import damn from "../public/DAMN.jpeg";

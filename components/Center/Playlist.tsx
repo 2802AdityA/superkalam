@@ -1,7 +1,8 @@
 import Image from "next/image"
 import cat from "../../public/cat.png";
+import { CenterContent } from "@/interface";
 
-export const Playlist = ({ playlist }: { playlist: any }) => {
+export const Playlist = ({ playlist }: { playlist: CenterContent }) => {
     return (
         <div className="flex-col">
             <Image alt="cover" className="w-full rounded-lg" src={playlist.cover} />
