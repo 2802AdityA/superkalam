@@ -1,11 +1,9 @@
 import { Center } from "@/components/Center/Center";
 import { Left } from "@/components/Left/Left";
-import { Player } from "@/components/Player";
+import { Player } from "@/components/Player/Player";
 import { Right } from "@/components/Right/Right";
 
 export default function Home() {
-
-
     return (
         <div className="flex flex-col h-screen overflow-hidden">
             <div className="flex overflow-hidden flex-grow pb-16">
