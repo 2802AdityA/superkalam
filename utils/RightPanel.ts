@@ -1,30 +1,34 @@
 import { RightPanelInterface } from "@/interface";
 import cat from "../public/cat.png";
+import runaway from "../public/runaway.jpeg";
+import myEyes from "../public/myEyes.jpeg";
+import middle from "../public/middleChild.jpeg";
+import sparks from "../public/sparks.jpeg";
 
 const rightPanel: RightPanelInterface[] = [
 	{
 		title: "Recently Played",
 		content: [
 			{
-				cover: cat,
+				cover: runaway,
 				name: "Runaway",
 				artist: "Kanye West",
 				time: "5 min ago",
 			},
 			{
-				cover: cat,
+				cover: myEyes,
 				name: "MY EYES",
 				artist: "Travis Scott",
 				time: "15 min ago",
 			},
 			{
-				cover: cat,
+				cover: middle,
 				name: "MIDDLE CHILD",
 				artist: "J. Cole",
 				time: "18 min ago",
 			},
 			{
-				cover: cat,
+				cover: sparks,
 				name: "Sparks",
 				artist: "Coldplay",
 				time: "2 hr ago",
