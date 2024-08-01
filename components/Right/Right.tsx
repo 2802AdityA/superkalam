@@ -12,15 +12,17 @@ export const Right = () => {
             <div className="flex justify-between items-center ">
                 <div className="flex items-center">
                     <div className='h-12 w-12 mr-4'><Image src={cat} alt="avatar" className='rounded-full' /></div>
-                    <div className='font-bold text-gray-300 text-lg'>aditya singla</div>
+                    <div className='font-bold text-gray-300 text-lg'>aditya</div>
                 </div>
                 <div className="flex gap-4">
-                    <div>
-                        <Bell className='text-gray-300 ' />
-                    </div>
-                    <div>
-                        <ChevronDown className='text-gray-300' />
-                    </div>
+                    <button className='text-gray-500 hover:text-white transition duration-500'>
+
+                        <Bell className=' ' />
+                    </button>
+                    <button className='text-gray-500 hover:text-white transition duration-500'>
+                        <ChevronDown className='' />
+                    </button >
+
                 </div>
             </div>
             {
