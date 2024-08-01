@@ -1,18 +1,20 @@
 "use client"
 
 import { ChevronLeft, ChevronRight, Ellipsis, Search } from "lucide-react"
+import { Button } from '../Button';
 
 export const TopBar = () => {
     return <div className="flex gap-4 items-center mb-8">
         <div className="justify-center items-center">
-            <button className="flex rounded-full justify-center items-center hover:bg-slate-700 h-10 w-10">
+            <Button>
                 <ChevronLeft />
-            </button>
+            </Button>
         </div>
         <div>
-            <button className="flex rounded-full justify-center items-center hover:bg-slate-700 h-10 w-10">
+            <Button>
+
                 <ChevronRight />
-            </button>
+            </Button>
         </div>
 
         <div className="flex-grow h-10 relative">

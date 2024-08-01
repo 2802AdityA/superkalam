@@ -4,6 +4,7 @@ import leftPanel from '../../utils/LeftPanel';
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import runaway from "../../public/runaway.jpeg"
+import { Button } from "../Button";
 
 
 export const Left = () => {
@@ -13,9 +14,10 @@ export const Left = () => {
                 <div className="font-black text-3xl text-blue-600">
                     W
                 </div>
-                <div className="">
+                <Button>
+
                     <Menu />
-                </div>
+                </Button>
             </div>
             <div>
                 {leftPanel.map((column) => {
