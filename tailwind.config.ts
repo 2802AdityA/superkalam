@@ -14,12 +14,12 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
 			colors: {
-				'leftC': "#101011",
-				'rightC': "#0A0A0A",
-				'centerC': "#18191B",
+				leftC: "#101011",
+				rightC: "#0A0A0A",
+				centerC: "#18191B",
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar")],
 };
 export default config;
