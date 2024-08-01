@@ -9,9 +9,9 @@ export const Playlist = ({ playlist }: { playlist: CenterContent }) => {
     }
     return (
         <div className="animate-fade-in transition duration-500 bg-[#ffffff09] hover:bg-[#ffffff17] p-4 rounded-lg">
-            <div className="flex-col">
+            <div className="flex flex-col">
                 <Image alt="cover" className="w-full rounded-lg" src={playlist.cover} />
-                <div className="flex-col w-52 mt-4">
+                <div className="flex flex-col w-52 mt-4">
                     <div className="font-bold text-gray-300 text-lg">
                         {playlist.title}
                     </div>

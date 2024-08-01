@@ -7,7 +7,7 @@ export const RightRow = ({ content }: { content: RightContent }) => {
             <div className="h-12 w-12">
                 <Image className="rounded-md" alt="album" src={content.cover} />
             </div>
-            <div className="flex-col">
+            <div className="flex flex-col">
                 <div className="text-lg text-gray-300">{content.name}</div>
                 <div className="text-sm text-gray-500 hover:underline hover:text-gray-300">{content.artist}</div>
             </div>

@@ -3,7 +3,7 @@ import { RightRow } from "./RightRow";
 
 export const RightColumn = ({ title, content }: { title: string, content: RightContent[] }) => {
     return (
-        <div className="flex-col mt-8">
+        <div className="flex flex-col mt-8">
             <div className="flex justify-between items-center">
                 <div className="text-gray-300 text-lg font-extrabold">
                     {title}
