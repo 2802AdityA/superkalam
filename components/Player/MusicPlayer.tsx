@@ -1,9 +1,16 @@
 "use client"
 
 import { CirclePause, Repeat, Shuffle, SkipBack, SkipForward } from "lucide-react"
-import { ReactNode } from "react"
+import { ChangeEvent, ReactNode, useState } from "react"
 
 export const MusicPlayer = () => {
+
+    const [slider, setSlider] = useState<string>("50");
+
+    const sliderHandler = (e: ChangeEvent<HTMLInputElement>) => {
+        setSlider(e.target.value);
+    }
+
     return <div className="flex flex-col justify-center items-center flex-grow space-y-4">
         <div className="flex w-full flex-row justify-center items-center space-x-8">
             <div className="hidden sm:block">
@@ -31,7 +38,9 @@ export const MusicPlayer = () => {
             </div>
         </div>
         <div className='flex w-full  justify-center items-center'>
-            <input className='w-1/2 h-1' type="range" min="1" max="100" value="40" />
+            <input className='w-1/2 h-1' type="range" min="1" max="100" value={slider} onChange={(e) => {
+                sliderHandler(e)
+            }} />
         </div>
     </div>
 }
