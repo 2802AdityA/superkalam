@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div className="flex flex-col h-screen overflow-hidden">
             <div className="flex overflow-hidden flex-grow pb-16">
-                <div className="flex w-0 lg:w-1/6 lg:min-w-1/6 bg-leftC overflow-y-hidden min-h-screen pb-24">
+                <div className="flex w-0 lg:w-1/5 bg-leftC overflow-y-hidden min-h-screen pb-24">
                     <Left />
                 </div>
                 <div
