@@ -11,7 +11,7 @@ export default function Home() {
                     <Left />
                 </div>
                 <div
-                    className="flex-1 pb-[10%] bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent ">
+                    className="flex-1 pb-[10%] lg:pb-[5%] bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent ">
                     <Center />
                 </div>
                 <div className="w-0 xl:w-1/5 bg-rightC overflow-y-auto h-full min-h-screen scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent">
