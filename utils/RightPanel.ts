@@ -1,9 +1,12 @@
 import { RightPanelInterface } from "@/interface";
-import cat from "../public/cat.png";
 import runaway from "../public/runaway.jpeg";
 import myEyes from "../public/myEyes.jpeg";
 import middle from "../public/middleChild.jpeg";
 import sparks from "../public/sparks.jpeg";
+import timeWillTell from "../public/TimeWillTell.jpeg";
+import astro from "../public/ASTROWORLD.jpeg";
+import off from "../public/TheOffSeason.jpeg";
+import damn from "../public/DAMN.jpeg";
 
 const rightPanel: RightPanelInterface[] = [
 	{
@@ -39,25 +42,25 @@ const rightPanel: RightPanelInterface[] = [
 		title: "My Playlist",
 		content: [
 			{
-				cover: cat,
+				cover: timeWillTell,
 				name: "land of rising sun",
 				artist: "38 songs",
 				time: "2hr 43min",
 			},
 			{
-				cover: cat,
+				cover: astro,
 				name: "burning memories",
 				artist: "21 songs",
 				time: "1hr 4min",
 			},
 			{
-				cover: cat,
+				cover: off,
 				name: "dream 127 U",
 				artist: "35 songs",
 				time: "1hr 56min",
 			},
 			{
-				cover: cat,
+				cover: damn,
 				name: "underrated",
 				artist: "18 songs",
 				time: "51min",
