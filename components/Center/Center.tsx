@@ -12,7 +12,7 @@ export const Center = () => {
 
         {
             mainCover ?
-                <Image className="rounded-2xl w-full h-100%" src={mainCover} alt="main cover" /> : <div className="bg-[#ffffff10] rounded-2xl w-full h-72 animate-pulse"></div>
+                <Image className="rounded-2xl w-full h-100%" src={mainCover} alt="main cover" /> : <div className="bg-[#ffffff10] rounded-2xl w-full h-[25%] animate-pulse"></div>
         }
 
         {
