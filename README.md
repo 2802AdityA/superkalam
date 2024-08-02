@@ -13,7 +13,7 @@ Clone the repo
 git clone https://github.com/2802AdityA/superkalam
 ```
 
-Install the dependency
+Install dependencies
 ```bash
 npm install
 ```
