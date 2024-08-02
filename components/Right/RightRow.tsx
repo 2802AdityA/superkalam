@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export const RightRow = ({ content }: { content: RightContent }) => {
     return <div className="flex justify-between items-center mt-4">
-        <div className="flex justify-start items-center gap-[1%]">
+        <div className="flex justify-start items-center gap-4">
             <div className="h-12 w-12">
                 <Image className="rounded-md" alt="album" src={content.cover} />
             </div>
