@@ -5,14 +5,13 @@ import { Button } from '../Button';
 
 export const TopBar = () => {
     return <div className="flex gap-4 items-center mb-8">
-        <div className="justify-center items-center">
+        <div className="hidden md:block justify-center items-center">
             <Button>
                 <ChevronLeft />
             </Button>
         </div>
-        <div>
+        <div className="hidden md:block justify-center items-center">
             <Button>
-
                 <ChevronRight />
             </Button>
         </div>

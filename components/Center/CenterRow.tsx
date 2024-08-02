@@ -13,7 +13,7 @@ export const CenterRow = ({ row }: { row: CenterPanelInterface }) => {
                 <button className="text-gray-400 hover:text-white transition duration-500 font-semibold">See all</button>
             </div>
         </div>
-        <div className="grid grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-[4%]">
             {
                 row.content.map((playlist: CenterContent) => {
                     return <Playlist key={playlist.title} playlist={playlist} />

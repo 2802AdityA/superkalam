@@ -11,14 +11,14 @@ export default function Home() {
                     <Left />
                 </div>
                 <div
-                    className="flex-1 pb-16 bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent ">
+                    className="flex-1 pb-[10%] bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent ">
                     <Center />
                 </div>
                 <div className="w-0 lg:w-1/5 lg:min-w-[400px] bg-rightC overflow-y-auto h-full min-h-screen scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent">
                     <Right />
                 </div>
             </div>
-            <div className="bg-rightC px-8 py-4 border-0 border-t-2 h-24 border-[#1A1B1C] fixed bottom-0 w-full">
+            <div className="bg-rightC px-[3%] py-[1%] border-0 border-t-2 h-[10%] border-[#1A1B1C] fixed bottom-0 w-full">
                 <Player />
             </div>
         </div>
