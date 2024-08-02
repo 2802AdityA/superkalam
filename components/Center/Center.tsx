@@ -7,7 +7,7 @@ import centerPanel from "@/utils/CenterPanel";
 import { CenterRow } from "./CenterRow";
 
 export const Center = () => {
-    return <div className="text-white flex-col mt-[4%] mx-16">
+    return <div className="text-white flex-col mt-[4%] mx-[5%]">
         <TopBar />
 
         {

@@ -14,7 +14,7 @@ export default function Home() {
                     className="flex-1 pb-[10%] bg-centerC overflow-y-scroll scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent ">
                     <Center />
                 </div>
-                <div className="w-0 lg:w-1/5 lg:min-w-[400px] bg-rightC overflow-y-auto h-full min-h-screen scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent">
+                <div className="w-0 xl:w-1/5 bg-rightC overflow-y-auto h-full min-h-screen scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent">
                     <Right />
                 </div>
             </div>

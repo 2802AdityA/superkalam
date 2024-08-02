@@ -17,10 +17,10 @@ export const Right = () => {
                 <div className="flex gap-4">
                     <button className='text-gray-500 hover:text-white transition duration-500'>
 
-                        <Bell className=' ' />
+                        <Bell />
                     </button>
                     <button className='text-gray-500 hover:text-white transition duration-500'>
-                        <ChevronDown className='' />
+                        <ChevronDown />
                     </button >
 
                 </div>
@@ -30,7 +30,7 @@ export const Right = () => {
                     return <RightColumn key={column.title} title={column.title} content={column.content} />
                 })
             }
-            <button className="w-full rounded-lg text-xl mt-6 h-14 text-black font-bold bg-gray-300">Create New Playlist</button>
+            <button className="w-full rounded-lg md:text-md lg:text-lg xl:text-xl mt-6 h-14 text-black font-bold bg-gray-300">Create New Playlist</button>
 
 
 
