@@ -5,7 +5,7 @@ import { Right } from "@/components/Right/Right";
 
 export default function Home() {
     return (
-        <div className="flex flex-col h-screen overflow-hidden">
+        <div className=" bg-rightC flex flex-col h-screen overflow-hidden">
             <div className="flex overflow-hidden flex-grow pb-16">
                 <div className="flex w-0 lg:w-1/5 bg-leftC overflow-y-hidden min-h-screen pb-24">
                     <Left />
@@ -18,7 +18,7 @@ export default function Home() {
                     <Right />
                 </div>
             </div>
-            <div className="bg-rightC px-[3%] py-[1%] border-0 border-t-2 h-[10%] border-[#1A1B1C] fixed bottom-0 w-full">
+            <div className="bg-rightC px-[3%] py-[1%] border-0 border-t md:border-t-2 h-[10%] border-[#1A1B1C] fixed bottom-0 w-full">
                 <Player />
             </div>
         </div>
