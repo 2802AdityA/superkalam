@@ -4,7 +4,7 @@ import { Playlist } from "./Playlist";
 import { CenterContent, CenterPanelInterface } from "@/interface";
 
 export const CenterRow = ({ row }: { row: CenterPanelInterface }) => {
-    return (<div className="mt-8 flex flex-col ">
+    return (<div className="mt-[2%] flex flex-col ">
         <div className="flex justify-between items-center my-8 ">
             <div className="font-extrabold text-2xl lg:text-2xl xl:text-3xl hover:underline">
                 {row.title}
